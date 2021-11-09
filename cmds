@@ -124,6 +124,8 @@ REVISION CHANGE-CAUSE
  
 master $
 
+# get auth modes
+kubectl describe pod kube-apiserver-controlplane -n kube-system 
 
 Using the --revision flag:
 
