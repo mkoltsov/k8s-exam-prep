@@ -232,3 +232,6 @@ master $
 
 ---With this, we have rolled back to the previous version of the deployment with the image = nginx:1.17.
 
+kubectl rollout status name
+kubectl rollout history name
+
