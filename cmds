@@ -237,3 +237,9 @@ master $
 kubectl rollout status name
 kubectl rollout history name
 
+#check kube service
+ps -ef | grep kube-apiserver | grep admission-plugins
+
+#edit kube service flags
+vi /etc/kubernetes/manifests/kube-apiserver.yaml
+
